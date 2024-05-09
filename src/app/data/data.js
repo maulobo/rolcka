@@ -1,0 +1,11 @@
+export const valores = [
+  "valor1",
+  "valor2",
+  "valor3",
+  "valor4",
+  "valor5",
+  "valor6",
+  "valor7",
+  "valor8",
+  "valor9",
+];
