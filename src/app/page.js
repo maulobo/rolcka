@@ -5,6 +5,7 @@ import Nosotross from "./components/home/nosotros/nosotros";
 import Nosotros from "./components/home/nosotros/nosotros";
 import Mision from "./components/home/nosotros/mision-vision";
 import Servicios from "./components/home/servicios/servicios";
+import Confian from "./components/home/confian/confian";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <Nosotros />
       <Servicios />
+      <Confian />
     </main>
   );
 }

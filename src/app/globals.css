@@ -3,10 +3,19 @@
 @tailwind utilities;
 
 :root {
-  --bg-color-dark: ;
-  --bg-color-light: ;
+  --bg-color-dark: rgb(1, 1, 1);
+  --bg-color-light: rgb(255, 255, 255xs);
+  --bg-grey: rgba(12, 12, 12, 0.5);
   --padding-x: 8rem;
   --padding-y: 4rem;
+}
+* {
+  color: white;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
