@@ -1,11 +1,12 @@
 import React from "react";
 import { valores } from "../../../data/data";
+import "./nosotros.css";
 
 const Mision = () => {
   return (
     // mision
-    <div className="px-[var(--padding-x)] py-[var(--padding-y)]  flex flex-col gap-8">
-      <div className="min-h-36 flex gap-8 flex-wrap items-center bg-[var(--bg-grey)] py-[var(--padding-y)]  h-full">
+    <div className="px-[var(--padding-x)] py-[var(--padding-y)]  flex flex-col gap-8 imagen-bg">
+      <div className="min-h-36 flex gap-8 flex-wrap items-center bg-[var(--bg-grey)] py-[var(--padding-y)]  h-full ">
         <section className="flex-1 min-w-56 text-center">
           <h2>MISIÓN</h2>
         </section>
