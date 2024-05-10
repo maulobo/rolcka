@@ -9,7 +9,7 @@ const Mision = () => {
         <section className="flex-1 min-w-56 text-center">
           <h2>MISIÓN</h2>
         </section>
-        <section className="flex-1 min-w-56 text-center">
+        <section className="flex-1 min-w-56 text-center px-8">
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
             corrupti assumenda ipsum, repellendus eaque eos iste inventore dicta
@@ -22,7 +22,7 @@ const Mision = () => {
       {/* vision */}
 
       <div className="min-h-36 flex gap-8 flex-wrap items-center  h-full  bg-[var(--bg-grey)] py-[var(--padding-y)]">
-        <section className="flex-1  min-w-56 text-center">
+        <section className="flex-1  min-w-56 text-center px-8">
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
             corrupti assumenda ipsum, repellendus eaque eos iste inventore dicta
@@ -37,11 +37,11 @@ const Mision = () => {
 
       {/* valores */}
 
-      <div className=" flex flex-col gap-8 flex-wrap items-center h-full justify-center  bg-[var(--bg-grey)] md:py-[var(--padding-y)] ">
-        <section className="text-center">
+      <div className=" flex flex-col  flex-wrap items-center h-full justify-center  bg-[var(--bg-grey)] md:py-[var(--padding-y)] ">
+        <section className="text-center py-8">
           <h2>NUESTROS VALORES</h2>
         </section>
-        <section className="flex flex-wrap  justify-around  ">
+        <section className="flex flex-wrap  justify-around py-8  ">
           {valores.map((val, i) => (
             <div
               key={i}
