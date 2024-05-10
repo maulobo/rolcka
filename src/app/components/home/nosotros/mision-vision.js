@@ -37,15 +37,19 @@ const Mision = () => {
 
       {/* valores */}
 
-      <div className=" flex flex-col gap-8 flex-wrap items-center h-full justify-center  bg-[var(--bg-grey)] py-[var(--padding-y)]">
-        <section>
+      <div className=" flex flex-col gap-8 flex-wrap items-center h-full justify-center  bg-[var(--bg-grey)] md:py-[var(--padding-y)] ">
+        <section className="text-center">
           <h2>NUESTROS VALORES</h2>
         </section>
-        <section className="grid grid-cols-3 gap-8 max-w-96 ">
+        <section className="flex flex-wrap  justify-around  ">
           {valores.map((val, i) => (
-            <h3 key={i} className="text-4xl ">
-              {val}
-            </h3>
+            <div
+              key={i}
+              className="flex gap-8 min-w-72 px-8 py-2 text-3xl items-center justify-center"
+            >
+              <h3>X</h3>
+              <h3 className=" ">{val}</h3>
+            </div>
           ))}
         </section>
       </div>

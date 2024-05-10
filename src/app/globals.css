@@ -20,6 +20,11 @@ h2 {
 
 @media (max-width: 768px) {
   :root {
-    --padding-x: 4rem;
+    --padding-x: 2rem;
+    --padding-y: 2rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
   }
 }
