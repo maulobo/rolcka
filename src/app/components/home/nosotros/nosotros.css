@@ -2,3 +2,10 @@
   background-image: url("../../../assets/soldador.jpg");
   background-size: contain;
 }
+@media (max-width: 768px) {
+  .imagen-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30%;
+  }
+}
