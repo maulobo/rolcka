@@ -1,12 +1,12 @@
 export const valores = [
   "valor1",
-  "valor2",
-  "valor3",
-  "valor4",
+  "Flexibilidad",
+  "Mejora continua",
+  "Responsabilidad",
   "valor5",
-  "valor6",
-  "valor7",
-  "valor8",
+  "Productividad",
+  "Empatía",
+  "Res",
   "valor9",
 ];
 export const alquiler = [
@@ -19,13 +19,13 @@ export const alquiler = [
   {
     A: "ALGO",
     B: "MAS",
-    C: "PILETAS",
+    C: "BOMBAS",
     D: "NO QUE MAS DICE",
   },
   {
     A: "ALGO",
     B: "MAS",
-    C: "PILETAS",
+    C: "SISTERNAS",
     D: "NO QUE MAS DICE",
   },
 ];
@@ -39,31 +39,69 @@ export const Fabricacion = [
   {
     A: "ALGO",
     B: "MAS",
-    C: "PILETAS",
+    C: "CISTERNAS",
     D: "NO QUE MAS DICE",
   },
   {
     A: "ALGO",
     B: "MAS",
-    C: "PILETAS",
+    C: "TANQUES",
     D: "NO QUE MAS DICE",
   },
   {
     A: "ALGO",
     B: "MAS",
-    C: "PILETAS",
+    C: "ESTRUCTURAS Y PLATAFORMAS",
     D: "NO QUE MAS DICE",
   },
   {
     A: "ALGO",
     B: "MAS",
-    C: "PILETAS",
+    C: "SKID",
     D: "NO QUE MAS DICE",
   },
   {
     A: "ALGO",
     B: "MAS",
-    C: "PILETAS",
+    C: "TALLERES Y MODULOS",
     D: "NO QUE MAS DICE",
+  },
+];
+
+export const imageUrls = [
+  {
+    src: "/confian/logo_01.png",
+    height: 150,
+    width: 150,
+  },
+  {
+    src: "/confian/logo_03.png",
+    height: 150,
+    width: 150,
+  },
+  {
+    src: "/confian/logo_05.png",
+    height: 150,
+    width: 150,
+  },
+  {
+    src: "/confian/logo_07.png",
+    height: 150,
+    width: 150,
+  },
+  {
+    src: "/confian/logo_09.png",
+    height: 150,
+    width: 150,
+  },
+  {
+    src: "/confian/logo_11.png",
+    height: 150,
+    width: 150,
+  },
+  {
+    src: "/confian/logo_13.png",
+    height: 150,
+    width: 150,
   },
 ];

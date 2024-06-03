@@ -2,6 +2,11 @@
   background-image: url("../../../assets/factory.jpg");
   background-size: contain;
 }
+.bg-image-fab {
+  background-image: url("../../../assets/tank.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 @media (max-width: 768px) {
   .image-bg-srv {
     background-repeat: no-repeat;
