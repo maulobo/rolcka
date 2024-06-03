@@ -11,14 +11,14 @@ const Form = () => {
             htmlFor="name"
             className="block text-sm font-medium text-gray-700"
           >
-            Name
+            Nombre
           </label>
           <input
             type="text"
             id="name"
             name="name"
             className="border-2 border-gray-300 p-2 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-800"
-            placeholder="John Doe"
+            placeholder="Martin M"
             required
           />
         </div>
@@ -34,7 +34,7 @@ const Form = () => {
             id="email"
             name="email"
             className="border-2 border-gray-300 p-2 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-800"
-            placeholder="johndoe@example.com"
+            placeholder="tuemail@example.com"
             required
           />
         </div>
@@ -43,13 +43,13 @@ const Form = () => {
             htmlFor="message"
             className="block text-sm font-medium text-gray-700"
           >
-            Message
+            Mensaje
           </label>
           <textarea
             id="message"
             name="message"
             className="border-2 border-gray-300 p-2 rounded-lg w-full h-32 resize-none focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-800"
-            placeholder="Your message"
+            placeholder="Escribinos por cualquier consulta"
             required
           ></textarea>
         </div>
@@ -57,21 +57,8 @@ const Form = () => {
           type="submit"
           className="bg-blue-500 text-white p-2 rounded-lg font-semibold w-full hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-100 "
         >
-          Send
+          Enviar
         </button>
-
-        <div className="mt-4 text-sm text-gray-600">
-          If you prefer not to use web forms, you can reveal our email address
-          on{" "}
-          <a
-            href="https://veilmail.io/irish-geoff"
-            className="underline"
-            target="_blank"
-          >
-            veilmail.io/irish-geoff
-          </a>
-          .
-        </div>
       </div>
     </form>
   );
