@@ -4,8 +4,8 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "Servicios", href: "#", current: false },
+  { name: "Home", href: "/", current: true },
+  { name: "Servicios", href: "/servicios", current: false },
   { name: "Proyectos", href: "#", current: false },
 ];
 
