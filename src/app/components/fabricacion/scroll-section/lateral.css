@@ -4,7 +4,7 @@
   position: sticky;
   top: 0;
   display: flex;
-  width: 100vw;
+
   height: 100vh;
   color: var(--bg-color-light);
 }
