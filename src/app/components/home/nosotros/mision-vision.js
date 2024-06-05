@@ -46,7 +46,7 @@ const Mision = () => {
     // mision
     <div
       ref={contRef}
-      className="px-[var(--padding-x)] py-[var(--padding-y)]  flex flex-col gap-8 imagen-bg"
+      className="px-[var(--padding-x)] py-[var(--padding-y)]  flex flex-col gap-8 imagen-bg text-[var(--text-color-light)]"
     >
       <div
         ref={misionRef}

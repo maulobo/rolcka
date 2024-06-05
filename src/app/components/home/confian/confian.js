@@ -28,7 +28,7 @@ const Confian = () => {
   }, []);
 
   return (
-    <section className="min-h-80">
+    <section className="min-h-80 text-[var(--text-color-light)]">
       <div className="px-[var(--padding-x)] py-[var(--padding-y)] flex flex-col bg-[var(--bg-color-dark)] justify-center items-center ">
         <h2 className=" text-center">CONFIAN EN NOSOTROS</h2>
         <div

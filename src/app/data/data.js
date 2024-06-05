@@ -105,3 +105,16 @@ export const imageUrls = [
     width: 150,
   },
 ];
+
+export const piletas = {
+  h2: "PILETAS",
+  p: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste corrupti cupiditate doloremque voluptates in porro soluta, odit eum! Animi eligendi harum architecto vero excepturi officia perspiciatis voluptas unde mollitia eveniet.",
+};
+export const bombas = {
+  h2: "BOMBAS",
+  p: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste corrupti cupiditate doloremque voluptates in porro soluta, odit eum! Animi eligendi harum architecto vero excepturi officia perspiciatis voluptas unde mollitia eveniet.",
+};
+export const cisternas = {
+  h2: "CISTERNAS Y TANQUES",
+  p: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste corrupti cupiditate doloremque voluptates in porro soluta, odit eum! Animi eligendi harum architecto vero excepturi officia perspiciatis voluptas unde mollitia eveniet.",
+};

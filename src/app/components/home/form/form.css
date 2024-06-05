@@ -1,3 +1,9 @@
 .bg-form {
   background-image: url("../../../assets//factory.jpg");
 }
+.bg-footer {
+  background-image: url("../../../assets/backfoot.jpg");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}

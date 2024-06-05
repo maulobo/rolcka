@@ -8,9 +8,7 @@
   --bg-grey: rgba(12, 12, 12, 0.7);
   --padding-x: 8rem;
   --padding-y: 4rem;
-}
-* {
-  color: white;
+  --text-color-light: white;
 }
 
 h2 {
