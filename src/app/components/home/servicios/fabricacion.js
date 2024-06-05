@@ -3,7 +3,7 @@ import React from "react";
 
 export default function FabricacionMod() {
   return (
-    <section className=" px-[var(--padding-x)] py-[var(--padding-y)] min-h-96 bg-image-fab">
+    <section className=" px-[var(--padding-x)] py-[var(--padding-y)] min-h-96 bg-image-fab text-white">
       <div className="w-full bg-[var(--bg-grey)] h-full  flex flex-col gap-8 justify-center items-center px-[var(--padding-x)] py-[var(--padding-y)] ">
         <h2>FABRICACION</h2>
         <div className="grid md:grid-cols-3  gap-16 grid-row-3 ">

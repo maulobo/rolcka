@@ -4,7 +4,7 @@
 
 :root {
   --bg-color-dark: rgb(1, 1, 1);
-  --bg-color-light: rgb(255, 255, 255xs);
+  --bg-color-light: rgb(255, 255, 255);
   --bg-grey: rgba(12, 12, 12, 0.7);
   --padding-x: 8rem;
   --padding-y: 4rem;
