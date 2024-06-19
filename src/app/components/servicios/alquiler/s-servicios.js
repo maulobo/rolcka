@@ -1,6 +1,7 @@
 import { alquiler } from "@/app/data/data";
 import React from "react";
 import "./s-servicios.css";
+import Image from "next/image";
 
 export default function SServicios() {
   return (
@@ -12,18 +13,15 @@ export default function SServicios() {
         <h3 className="text-white  p-2">Para la industria de oil & gas</h3>
       </section>
       <div className="flex justify-evenly w-full flex-wrap gap-8 ">
-        {alquiler.map(({ A, B, C, D }, index) => {
+        {alquiler.map(({ src, text }, index) => {
           return (
             <div
               key={`${index}_alquiler`}
               className="flex flex-col items-center gap-2"
             >
-              <div className=" h-40 w-40 border-2 rounded-3xl border-white flex flex-col items-center justify-center ">
-                <h4>{A}</h4>
-                <h4>{B}</h4>
-              </div>
-              <h3>{C}</h3>
-              <h4>{D}</h4>
+              <Image src={src} height={300} alt={src} width={300} />
+
+              <h3>{text}</h3>
             </div>
           );
         })}

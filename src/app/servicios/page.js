@@ -5,6 +5,7 @@ import { bombas, piletas, cisternas } from "../data/data";
 import SCards from "../components/servicios/cards";
 import SBomba from "../components/servicios/bombaCard";
 import Formulario from "../components/home/form";
+import SCards2 from "../components/servicios/cards/scard2";
 
 const page = () => {
   return (
@@ -15,7 +16,7 @@ const page = () => {
       <SPiletas h2={bombas.h2} p={bombas.p} />
       <SBomba />
       <SPiletas h2={cisternas.h2} p={cisternas.p} />
-      <SCards />
+      <SCards2 />
       <Formulario />
       ``
     </>

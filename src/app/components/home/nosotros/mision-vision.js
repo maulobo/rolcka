@@ -57,10 +57,10 @@ const Mision = () => {
         </section>
         <section className="flex-1 min-w-56 text-center px-8">
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
-            corrupti assumenda ipsum, repellendus eaque eos iste inventore dicta
-            fuga incidunt aliquid et temporibus quos ad officia quis possimus
-            facilis voluptates.
+            Como empresa de servicio integral del Sector Oil & Gas, nuestro
+            objetivo es la satisfacción del cliente de manera eficiente y
+            eficaz, generando un impacto positivo en lo económico, social y
+            ambiental.
           </p>
         </section>
       </div>
@@ -73,10 +73,8 @@ const Mision = () => {
       >
         <section className="flex-1  min-w-56 text-center px-8">
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
-            corrupti assumenda ipsum, repellendus eaque eos iste inventore dicta
-            fuga incidunt aliquid et temporibus quos ad officia quis possimus
-            facilis voluptates.
+            Ser líderes en el sector Oil & Gas brindando una solución integral a
+            nivel nacional e internacional.
           </p>
         </section>
         <section className="flex-1  min-w-56 text-center">

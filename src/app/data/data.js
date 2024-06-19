@@ -1,70 +1,52 @@
 export const valores = [
-  "valor1",
+  "Compromiso",
   "Flexibilidad",
   "Mejora continua",
   "Responsabilidad",
-  "valor5",
+  "Iniciativa",
   "Productividad",
   "Empatía",
   "Res",
-  "valor9",
+  "Humildad",
 ];
 export const alquiler = [
   {
-    A: "ALGO",
-    B: "MAS",
-    C: "PILETAS",
-    D: "NO QUE MAS DICE",
+    src: "/simbols/cisterna_white.png",
+    text: "CISTERNAS",
   },
   {
-    A: "ALGO",
-    B: "MAS",
-    C: "BOMBAS",
-    D: "NO QUE MAS DICE",
+    src: "/simbols/pileta_white.png",
+    text: "PILEtAS",
   },
   {
-    A: "ALGO",
-    B: "MAS",
-    C: "SISTERNAS",
-    D: "NO QUE MAS DICE",
+    src: "/simbols/modulos_white.png",
+    text: "MÓDULOS",
   },
 ];
 export const Fabricacion = [
   {
-    A: "ALGO",
-    B: "MAS",
-    C: "PILETAS",
-    D: "NO QUE MAS DICE",
+    src: "/simbols/pileta_white.png",
+    text: "PILEtAS",
   },
   {
-    A: "ALGO",
-    B: "MAS",
-    C: "CISTERNAS",
-    D: "NO QUE MAS DICE",
+    src: "/simbols/cisterna_white.png",
+    text: "CISTERNAS",
   },
   {
-    A: "ALGO",
-    B: "MAS",
-    C: "TANQUES",
-    D: "NO QUE MAS DICE",
+    src: "/simbols/Bomba_white.png",
+    text: "BOMBAS",
   },
   {
-    A: "ALGO",
-    B: "MAS",
-    C: "ESTRUCTURAS Y PLATAFORMAS",
-    D: "NO QUE MAS DICE",
+    src: "/simbols/Estructura_white.png",
+    text: "ESTRUCTURAS Y PLATAFORMAS",
   },
   {
-    A: "ALGO",
-    B: "MAS",
-    C: "SKID",
-    D: "NO QUE MAS DICE",
+    src: "/simbols/Skid_white.png",
+    text: "SKID",
   },
   {
-    A: "ALGO",
-    B: "MAS",
-    C: "TALLERES Y MODULOS",
-    D: "NO QUE MAS DICE",
+    src: "/simbols/Modulos_white.png",
+    text: "MODULOS",
   },
 ];
 
@@ -108,13 +90,22 @@ export const imageUrls = [
 
 export const piletas = {
   h2: "PILETAS",
-  p: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste corrupti cupiditate doloremque voluptates in porro soluta, odit eum! Animi eligendi harum architecto vero excepturi officia perspiciatis voluptas unde mollitia eveniet.",
+  p: "Consisten en equipos para almacenaje de fluidos en el proceso de perforación y terminación de pozos petroleros, cualquiera fuere el método de extracción.",
 };
 export const bombas = {
   h2: "BOMBAS",
-  p: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste corrupti cupiditate doloremque voluptates in porro soluta, odit eum! Animi eligendi harum architecto vero excepturi officia perspiciatis voluptas unde mollitia eveniet.",
+  p: "Agregar descripción de las bombas",
 };
 export const cisternas = {
   h2: "CISTERNAS Y TANQUES",
   p: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste corrupti cupiditate doloremque voluptates in porro soluta, odit eum! Animi eligendi harum architecto vero excepturi officia perspiciatis voluptas unde mollitia eveniet.",
 };
+
+export const images = [
+  { src: "/images/bomba.jpg", aspect_ratio: 2 },
+  { src: "/images/bomba.jpg", aspect_ratio: 4 / 3, alt: "alt" },
+  { src: "/images/bomba.jpg", aspect_ratio: 1 },
+  { src: "/images/bomba.jpg", aspect_ratio: 1 },
+  { src: "/images/bomba.jpg", aspect_ratio: 3, alt: "alt" },
+  { src: "/images/bomba.jpg", aspect_ratio: 1 },
+];

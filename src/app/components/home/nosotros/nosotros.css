@@ -1,5 +1,5 @@
 .imagen-bg {
-  background-image: url("../../../assets/soldador.jpg");
+  background-image: url("../../../assets/soldador.jpeg");
   background-size: contain;
 }
 @media (max-width: 768px) {

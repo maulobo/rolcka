@@ -44,10 +44,11 @@ const Nosotros = () => {
         </section>
         <section className="flex-1  min-w-56 text-center">
           <p ref={pRef}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
-            corrupti assumenda ipsum, repellendus eaque eos iste inventore dicta
-            fuga incidunt aliquid et temporibus quos ad officia quis possimus
-            facilis voluptates.
+            Somos un Equipo de Profesionales Especialistas comprometidos con el
+            desarrollo industrial, social y ambiental del sector Oil & Gas.
+            Aportamos nuestros conocimientos al crecimiento de cada empresa que
+            comparte nuestros valores y nuestra pasión por lo que realizamos día
+            a día.
           </p>
         </section>
       </div>
