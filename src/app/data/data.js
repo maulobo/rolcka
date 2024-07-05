@@ -11,7 +11,7 @@ export const valores = [
 ];
 export const alquiler = [
   {
-    src: "/simbols/pileta_white.png",
+    src: "/simbols/Pileta_white.png",
     text: "PILETAS",
     text2: "ACUMULACIÓN Y",
     text3: " AGITACION",
@@ -29,7 +29,7 @@ export const alquiler = [
 ];
 export const Fabricacion = [
   {
-    src: "/simbols/pileta_white.png",
+    src: "/simbols/Pileta_white.png",
     text: "PILETAS",
   },
   {
