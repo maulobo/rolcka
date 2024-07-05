@@ -1,7 +1,9 @@
 "use client";
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
+
+import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import logo from "/public/images/logo_rolcka.png";
+import Image from "next/image";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
@@ -35,7 +37,7 @@ export default function Navbar() {
               {/* ACA VA EL LOGO */}
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <img className="h-8 w-auto" src="" alt="Rolcka" />
+                  <Image className="h-8 w-auto" src={logo} alt="Rolcka" />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">

@@ -7,7 +7,7 @@ export default function SCards2() {
   return (
     <div className="py-[var(--padding-y)] flex flex-wrap items-center gap-8 justify-center  text-[var(--text-color-light)] ">
       <div className="bg-slate-600 w-full md:w-auto  md:shadow rounded-3xl flex flex-col gap-4 ">
-        <section className="h-full flex min-w-80 flex-wrap md:justify-center md:items-center ">
+        <section className="h-full flex min-w-80  flex-wrap justify-center  md:items-center  ">
           <div className="h-full min-w-40 item-center flex  justify-cente ">
             <Image
               src={pileta}
