@@ -17,7 +17,7 @@ export const alquiler = [
     text3: " AGITACION",
   },
   {
-    src: "/simbols/bomba_white.png",
+    src: "/simbols/Bomba_white.png",
     text: "BOMBAS",
     text2: "CENTRIFUGAS",
   },
@@ -45,7 +45,7 @@ export const Fabricacion = [
     text: "SKID",
   },
   {
-    src: "/simbols/Modulos_white.png",
+    src: "/simbols/modulos_white.png",
     text: "TRAILERS Y MÓDULOS",
   },
 ];
