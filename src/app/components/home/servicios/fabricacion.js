@@ -7,14 +7,14 @@ export default function FabricacionMod() {
     <section className=" px-[var(--padding-x)] py-[var(--padding-y)] min-h-96 bg-image-fab text-white">
       <div className="w-full bg-[var(--bg-grey)] h-full  flex flex-col gap-8 justify-center items-center px-[var(--padding-x)] py-[var(--padding-y)] ">
         <h2>FABRICACION</h2>
-        <div className="grid md:grid-cols-3  gap-16 grid-row-3 ">
+        <div className="flex flex-wrap md:gap-16 align-middle justify-center">
           {Fabricacion.map(({ src, text }, index) => {
             return (
               <div
                 key={`${index}_alquiler`}
-                className="flex flex-col items-center gap-2"
+                className="flex flex-col items-center gap-2 max-w-56 justify-around "
               >
-                <Image src={src} height={300} width={300} alt={src} />
+                <Image src={src} height={200} width={200} alt={src} />
 
                 <h3 className="text-center">{text}</h3>
               </div>

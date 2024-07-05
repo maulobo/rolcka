@@ -6,6 +6,9 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import Image from "next/image";
 import pileta from "/public/simbols/Pileta_red.png";
+import cisterna from "/public/simbols/cisterna_red.png";
+import trailers from "/public/simbols/Modulos_red.png";
+import skid from "/public/simbols/Skid_red.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -51,7 +54,7 @@ const LateralScroll = () => {
       {/* page 2 */}
       <section className=" panel flex flex-col  px-[var(--padding-x)] py-[var(--padding-y)]">
         <div className="flex-1 flex  align-middle items-center ">
-          <Image src={pileta} width={300} height={300} alt="pileta" />
+          <Image src={pileta} width={200} height={200} alt="pileta" />
           <h2 className="md:block hidden">PIELTAS</h2>
         </div>
         <div className="flex-1 flex flex-col gap-4">
@@ -104,6 +107,10 @@ const LateralScroll = () => {
       {/* page 4 */}
       <section className=" panel flex flex-col  px-[var(--padding-x)] py-[var(--padding-y)] justify-evenly  ">
         <div className="flex flex-col gap-4">
+          <div className="flex-1 flex  align-middle items-center ">
+            <Image src={cisterna} width={200} height={200} alt="cisterna" />
+            <h2 className="md:block hidden">CISTERNAS</h2>
+          </div>
           <h3 className="text-3xl">CISTERNAS Y TANQUES PARA GAS OIL</h3>
           <p>
             Contenedores diseñados para el almacenamiento y transporte seguro de
@@ -112,6 +119,10 @@ const LateralScroll = () => {
           </p>
         </div>
         <div className="flex flex-col gap-4">
+          <div className="flex-1 flex  align-middle items-center ">
+            <Image src={trailers} width={200} height={200} alt="trailers" />
+            <h2 className="md:block hidden">TRAILERS</h2>
+          </div>
           <h3 className="text-3xl">TRAILERS Y MODULOS HABITACIONALES</h3>
           <p>
             Vehículos de transporte y estructuras móviles que ofrecen soluciones
@@ -131,6 +142,10 @@ const LateralScroll = () => {
           </p>
         </div>
         <div className="flex flex-col gap-4">
+          <div className="flex-1 flex  align-middle items-center ">
+            <Image src={skid} width={200} height={200} alt="skid" />
+            <h2 className="md:block hidden">SKID</h2>
+          </div>
           <h3 className="text-3xl">SKIDS Y SKID GAS LIFT</h3>
           <p>
             Plataformas modulares versátiles para el montaje rápido de equipos,

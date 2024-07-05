@@ -11,30 +11,30 @@ export const valores = [
 ];
 export const alquiler = [
   {
+    src: "/simbols/pileta_white.png",
+    text: "PILETAS",
+    text2: "ACUMULACIÓN Y",
+    text3: " AGITACION",
+  },
+  {
+    src: "/simbols/bomba_white.png",
+    text: "BOMBAS",
+    text2: "CENTRIFUGAS",
+  },
+  {
     src: "/simbols/cisterna_white.png",
     text: "CISTERNAS",
-  },
-  {
-    src: "/simbols/pileta_white.png",
-    text: "PILEtAS",
-  },
-  {
-    src: "/simbols/modulos_white.png",
-    text: "MÓDULOS",
+    text2: "GASOIL Y AGUA",
   },
 ];
 export const Fabricacion = [
   {
     src: "/simbols/pileta_white.png",
-    text: "PILEtAS",
+    text: "PILETAS",
   },
   {
     src: "/simbols/cisterna_white.png",
-    text: "CISTERNAS",
-  },
-  {
-    src: "/simbols/Bomba_white.png",
-    text: "BOMBAS",
+    text: "CISTERNAS Y TANQUES",
   },
   {
     src: "/simbols/Estructura_white.png",
@@ -46,7 +46,7 @@ export const Fabricacion = [
   },
   {
     src: "/simbols/Modulos_white.png",
-    text: "MODULOS",
+    text: "TRAILERS Y MÓDULOS",
   },
 ];
 
@@ -57,7 +57,17 @@ export const imageUrls = [
     width: 150,
   },
   {
+    src: "/confian/logo_02.png",
+    height: 150,
+    width: 150,
+  },
+  {
     src: "/confian/logo_03.png",
+    height: 150,
+    width: 150,
+  },
+  {
+    src: "/confian/logo_04.png",
     height: 150,
     width: 150,
   },
@@ -67,22 +77,12 @@ export const imageUrls = [
     width: 150,
   },
   {
+    src: "/confian/logo_06.png",
+    height: 150,
+    width: 150,
+  },
+  {
     src: "/confian/logo_07.png",
-    height: 150,
-    width: 150,
-  },
-  {
-    src: "/confian/logo_09.png",
-    height: 150,
-    width: 150,
-  },
-  {
-    src: "/confian/logo_11.png",
-    height: 150,
-    width: 150,
-  },
-  {
-    src: "/confian/logo_13.png",
     height: 150,
     width: 150,
   },

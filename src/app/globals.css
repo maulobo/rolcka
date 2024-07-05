@@ -19,6 +19,11 @@ h2 {
   font-weight: bold;
   letter-spacing: 3px;
 }
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
 
 @media (max-width: 768px) {
   :root {
