@@ -6,12 +6,12 @@ import Image from "next/image";
 export default function SServicios() {
   return (
     <section className=" flex flex-col px-[var(--padding-x)] py-[var(--padding-y)] min-h-96 back-ss gap-8 text-[var(--text-color-light)]">
-      <section className=" min-h-40  flex flex-col justify-center  px-4 ">
-        <h2 className="text-center bg-slate-50 text-black">
+      <section className=" min-h-40  flex flex-col items-center justify-center  px-4 ">
+        <h2 className="text-center bg-slate-50 text-black px-4">
           ALQUILER DE EQUIPOS
         </h2>
         <h3 className="text-white p-2 text-center">
-          Para la industria de oil & gas
+          Para la industria de Oil & Gas
         </h3>
       </section>
       <div className="flex justify-evenly w-full flex-wrap gap-8 ">

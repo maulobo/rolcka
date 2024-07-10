@@ -45,11 +45,11 @@ const LateralScroll = () => {
             sit voluptates earum doloremque quia aliquam. Reiciendis, tempora.
           </p>
         </div>
-        <div className="flex w-full justify-end ">
+        {/* <div className="flex w-full justify-end ">
           <h3 className="border-solid border-2 rounded-xl border-red-500 py-2 px-8 text-red-500">
             NUESTROS SERVICIOS
           </h3>
-        </div>
+        </div> */}
       </section>
       {/* page 2 */}
       <section className=" panel flex flex-col  px-[var(--padding-x)] py-[var(--padding-y)]">

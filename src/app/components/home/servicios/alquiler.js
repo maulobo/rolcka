@@ -1,5 +1,6 @@
 import { alquiler } from "@/app/data/data";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function Alquiler() {
@@ -23,9 +24,12 @@ export default function Alquiler() {
             );
           })}
         </div>
-        <button className="border-solid border-2 rounded-2xl border-red-500 py-2 px-8 text-red-500">
+        <Link
+          href="/alquiler"
+          className="border-solid border-2 rounded-2xl border-red-500 py-2 px-8 text-red-500"
+        >
           INFO
-        </button>
+        </Link>
       </div>
     </section>
   );
