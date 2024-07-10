@@ -1,6 +1,8 @@
 .imagen-bg {
   background-image: url("../../../assets/soldador.jpeg");
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 @media (max-width: 768px) {
   .imagen-bg {

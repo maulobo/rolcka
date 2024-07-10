@@ -18,7 +18,6 @@ const page = () => {
       <SPiletas h2={cisternas.h2} p={cisternas.p} />
       <SCards2 />
       <Formulario />
-      ``
     </>
   );
 };

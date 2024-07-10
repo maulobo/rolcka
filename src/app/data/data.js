@@ -6,7 +6,7 @@ export const valores = [
   "Iniciativa",
   "Productividad",
   "Empatía",
-  "Res",
+  "Respeto",
   "Humildad",
 ];
 export const alquiler = [
@@ -14,7 +14,7 @@ export const alquiler = [
     src: "/simbols/Pileta_white.png",
     text: "PILETAS",
     text2: "ACUMULACIÓN Y",
-    text3: " AGITACION",
+    text3: " AGITACIÓN",
   },
   {
     src: "/simbols/Bomba_white.png",
@@ -31,10 +31,13 @@ export const Fabricacion = [
   {
     src: "/simbols/Pileta_white.png",
     text: "PILETAS",
+    text2: "ACUMULACIÓN Y",
+    text3: " AGITACIÓN",
   },
   {
     src: "/simbols/cisterna_white.png",
     text: "CISTERNAS Y TANQUES",
+    text2: "GASOIL Y AGUA",
   },
   {
     src: "/simbols/Estructura_white.png",
@@ -42,7 +45,7 @@ export const Fabricacion = [
   },
   {
     src: "/simbols/Skid_white.png",
-    text: "SKID",
+    text: "PIPPING",
   },
   {
     src: "/simbols/modulos_white.png",
@@ -83,6 +86,21 @@ export const imageUrls = [
   },
   {
     src: "/confian/logo_07.png",
+    height: 150,
+    width: 150,
+  },
+  {
+    src: "/confian/logo_08.png",
+    height: 150,
+    width: 150,
+  },
+  {
+    src: "/confian/logo_09.png",
+    height: 150,
+    width: 150,
+  },
+  {
+    src: "/confian/logo_10.png",
     height: 150,
     width: 150,
   },
