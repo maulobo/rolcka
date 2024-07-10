@@ -9,9 +9,9 @@ const page = () => {
     <div>
       <FabricacionMod />
       <LateralScroll />
-      <div className="px-[var(--padding-x)] py-[var(--padding-y)]">
+      {/* <div className="px-[var(--padding-x)] py-[var(--padding-y)]">
         <MyGallery />
-      </div>
+      </div> */}
       <Formulario />
     </div>
   );

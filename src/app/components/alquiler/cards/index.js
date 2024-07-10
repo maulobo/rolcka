@@ -17,7 +17,7 @@ export default function SCards() {
             />
           </div>
           <div className=" md:max-w-80 min-w-32 md:text-left flex flex-col p-8 gap-4">
-            <h3 className="text-2xl">ACUMULACION</h3>
+            <h3 className="text-2xl">ACUMULACIÓN</h3>
             <p>70m3 y 80 m3 sobre patines.</p>
             <p>
               Tanque principal con dos (2) bocas para limpieza, una base o

@@ -55,10 +55,10 @@ const LateralScroll = () => {
       <section className=" panel flex flex-col  px-[var(--padding-x)] py-[var(--padding-y)]">
         <div className="flex-1 flex  align-middle items-center ">
           <Image src={pileta} width={200} height={200} alt="pileta" />
-          <h2 className="md:block hidden">PIELTAS</h2>
+          <h2 className="md:block hidden">PILETAS</h2>
         </div>
         <div className="flex-1 flex flex-col gap-4">
-          <h3 className="text-3xl ">PILETAS PETROLERAS DE AGUA Y LODO</h3>
+          <h3 className="text-3xl ">PILETAS DE ACUMULACIÓN DE AGUA Y LODO</h3>
           <p className="md:block hidden">
             Diseñadas para contener y gestionar eficientemente el agua y lodo
             producidos durante las operaciones petroleras, formando parte
@@ -67,7 +67,7 @@ const LateralScroll = () => {
           <h3>MEDIDAS GENERALES Y PERSONALIZADAS.</h3>
         </div>
         <div className="flex-1 flex flex-col gap-4">
-          <h3 className="text-3xl ">PILETAS PILETAS DE AGITACIÓN DE LODOS</h3>
+          <h3 className="text-3xl ">PILETAS DE AGITACIÓN DE LODOS</h3>
           <p className="md:block hidden">
             Espacialmente diseñada para agitar y mezclar lodos, asegurando una
             suspensión homogénea de partículas sólidas en el líquido. La
@@ -144,15 +144,10 @@ const LateralScroll = () => {
         <div className="flex flex-col gap-4">
           <div className="flex-1 flex  align-middle items-center ">
             <Image src={skid} width={200} height={200} alt="skid" />
-            <h2 className="md:block hidden">SKID</h2>
+            <h2 className="md:block hidden">PIPING</h2>
           </div>
-          <h3 className="text-3xl">SKIDS Y SKID GAS LIFT</h3>
-          <p>
-            Plataformas modulares versátiles para el montaje rápido de equipos,
-            desde componentes mecánicos hasta sistemas específicos como el skid
-            gas lift, diseñado para mejorar la recuperación de petróleo mediante
-            la inyección de gas.
-          </p>
+          <h3 className="text-3xl">PIPING</h3>
+          <p>agregar desc</p>
         </div>
       </section>
     </div>

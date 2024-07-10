@@ -32,8 +32,9 @@ export default function SBomba() {
             </p>
             <h3>Caracteristicas</h3>
             <p>
-              Capacidad de succión: 4 pulgadas. Capacidad de descarga: 3
-              pulgadas. Motor de 25 caballos de fuerza (HP).
+              Capacidad de succión: 8 pulgadas. Capacidad de descarga: 6
+              pulgadas. Motor de 100 caballos de fuerza (HP) con arrancador
+              suave.
             </p>
           </div>
         </section>
