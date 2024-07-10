@@ -45,7 +45,7 @@ export const Fabricacion = [
   },
   {
     src: "/simbols/Skid_white.png",
-    text: "PIPPING",
+    text: "PIPING",
   },
   {
     src: "/simbols/modulos_white.png",

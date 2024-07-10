@@ -6,7 +6,7 @@ import "./form.css";
 
 const Formulario = () => {
   return (
-    <div className=" bg-form ">
+    <div className=" bg-form " id="contacto">
       <div className="flex  px-2 py-[var(--padding-y)] flex-wrap items-center justify-evenly gap-8 text-xl bg-footer">
         <Form />
         <div className="  md:h-52 md:w-96 bg-[rgba(212,212,212,0.45)] flex flex-col justify-evenly p-4 rounded-2xl font-bold text-blue-800">
