@@ -18,11 +18,10 @@ export default function SCards() {
           </div>
           <div className=" md:max-w-80 min-w-32 md:text-left flex flex-col p-8 gap-4">
             <h3 className="text-2xl">ACUMULACIÓN</h3>
-            <p>70m3 y 80 m3 sobre patines.</p>
             <p>
-              Tanque principal con dos (2) bocas para limpieza, una base o
-              patín, techo con chapa antideslizante, 2 bocas acceso personal,
-              escalera de acceso, barandas, accesorios y refuerzos interiores
+              Tanques fabricados con chapa de ¼ de espesor sobre patines de IPN.
+              Cuenta con Escalera a 45°, barandas perimetrales y rodapié
+              Capacidades: 60m3, 70m3 y 80m3 Con certificado de estanquidad
             </p>
             <p>Largo 10,50 mts.</p>
           </div>
@@ -33,10 +32,11 @@ export default function SCards() {
           <div className="md:max-w-80 min-w-32 md:text-right p-8 flex flex-col gap-4 ">
             <h3>AGITACIÓN DE LODO</h3>
             <p>
-              Tanque principal con dos (2) bocas para limpieza, una base o
-              patín, techo con chapa antideslizante, dos (2) bocas acceso
-              personal, escalera de acceso, barandas, accesorios y refuerzos
-              interiores.
+              Tanques de 70 m3 fabricados con chapa de ¼ de espesor, sobre
+              patines de IPN. Cuenta con Escalera a 45°, barandas perimetrales y
+              rodapié Sistema de remoción de lodos, compuesto por 3 conjuntos de
+              moto-reductores Sistema eléctrico antiexplosivos Con certificado
+              de estanquidad
             </p>
           </div>
           <div className="h-full min-w-40 flex  md:justify-center md:items-center">

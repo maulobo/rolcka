@@ -112,11 +112,11 @@ export const piletas = {
 };
 export const bombas = {
   h2: "BOMBAS",
-  p: "Agregar descripción de las bombas",
+  p: "Equipamiento mecánico de transferencia de fluidos, como el manejo de agua, lodos y más",
 };
 export const cisternas = {
   h2: "CISTERNAS Y TANQUES",
-  p: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste corrupti cupiditate doloremque voluptates in porro soluta, odit eum! Animi eligendi harum architecto vero excepturi officia perspiciatis voluptas unde mollitia eveniet.",
+  p: "Depósito cilíndrico de almacenamiento  de agua y combustible",
 };
 
 export const images = [

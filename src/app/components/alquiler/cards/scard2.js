@@ -18,17 +18,16 @@ export default function SCards2() {
           </div>
           <div className=" md:max-w-80 md:min-w-32 p-8 flex flex-col gap-4 ">
             <h3>CISTERNAS</h3>
-            <h3>CISTERNA DE GASOIL 20 m³</h3>
+
             <p>
-              Tanque de almacenamiento de combustible: 20m³ o 20.000 litros.
-              Batea de seguridad Bomba surtidora con caudalímetro y filtro.
-              Tablero antiexplosivo.
+              tanque de alamacenamiento de combustible con kit de sustraccion
+              equipado con bomba, caudalimentro y filtro.
             </p>
-            <h3>CISTERNA DE AGUA 3.500 lts.</h3>
+
             <p>
-              Tanque de almacenamiento de agua no potable: 3,5m³ o 3.500 litros.
-              Bomba surtidora 1/2hp
+              Batea de contencion y tablero antiexplosivo. Bomba surtidora 1/2hp
             </p>
+            <p>Capacidades: 5m3 , 10m3 y 20m3</p>
           </div>
         </section>
       </div>
