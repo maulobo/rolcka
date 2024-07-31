@@ -31,18 +31,18 @@ const LateralScroll = () => {
   }, []);
 
   return (
-    <div className="container" ref={containerRef}>
+    <div className="container bg-black" ref={containerRef}>
       {/* page 1 */}
       <section className="panel flex flex-col items-center justify-evenly px-[var(--padding-x)] py-[var(--padding-y)]  ">
         <div className="flex w-full text-right justify-end">
           <p className="md:w-[700px]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa vel
-            accusamus tempore magnam, itaque consectetur vero eum reprehenderit
-            quasi laboriosam, minus impedit sit voluptates earum doloremque quia
-            aliquam. Reiciendis, tempora. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ipsa vel accusamus tempore magnam, itaque
-            consectetur vero eum reprehenderit quasi laboriosam, minus impedit
-            sit voluptates earum doloremque quia aliquam. Reiciendis, tempora.
+            Nuestros servicios están orientados a un propósito común y a
+            objetivos claros en cada proyecto: cumplir con las necesidades de
+            nuestros clientes mediante una atención personalizada. Por ello, nos
+            enfocamos en desarrollar productos certificados de alta calidad,
+            efectivos e innovadores, que cumplen con los requisitos específicos
+            de nuestros clientes y se construyen bajo rigurosos estándares y
+            normativas de seguridad vigentes.
           </p>
         </div>
         {/* <div className="flex w-full justify-end ">
@@ -52,7 +52,7 @@ const LateralScroll = () => {
         </div> */}
       </section>
       {/* page 2 */}
-      <section className=" panel flex flex-col  px-[var(--padding-x)] py-[var(--padding-y)]">
+      <section className=" relative panel flex flex-col  px-[var(--padding-x)] py-[var(--padding-y)]">
         <div className="flex-1 flex  align-middle items-center ">
           <Image src={pileta} width={200} height={200} alt="pileta" />
           <h2 className="md:block hidden">PILETAS</h2>
@@ -64,7 +64,6 @@ const LateralScroll = () => {
             producidos durante las operaciones petroleras, formando parte
             esencial del sistema de separación y tratamiento de fluidos.
           </p>
-          <h3>MEDIDAS GENERALES Y PERSONALIZADAS.</h3>
         </div>
         <div className="flex-1 flex flex-col gap-4">
           <h3 className="text-3xl ">PILETAS DE AGITACIÓN DE LODOS</h3>
@@ -73,11 +72,13 @@ const LateralScroll = () => {
             suspensión homogénea de partículas sólidas en el líquido. La
             agitación es crucial para facilitar el procesamiento de lodos.
           </p>
-          <h3>MEDIDAS GENERALES Y PERSONALIZADAS.</h3>
         </div>
+        <p className="absolute bottom-0 right-0">
+          MEDIDAS GENERALES Y PERSONALIZADAS.
+        </p>
       </section>
       {/* page 3 */}
-      <section className=" panel  flex flex-col  px-[var(--padding-x)] py-[var(--padding-y)]">
+      <section className=" relative panel  flex flex-col  px-[var(--padding-x)] py-[var(--padding-y)]">
         <div className="flex-1 flex flex-col gap-4">
           <h3 className="text-3xl">PILETAS DE DESFOGUE</h3>
           <p>
@@ -103,6 +104,9 @@ const LateralScroll = () => {
             probar nuevas tecnologías.
           </p>
         </div>
+        <p className="absolute bottom-0 right-0">
+          MEDIDAS GENERALES Y PERSONALIZADAS.
+        </p>
       </section>
       {/* page 4 */}
       <section className=" panel flex flex-col  px-[var(--padding-x)] py-[var(--padding-y)] justify-evenly  ">
@@ -147,7 +151,11 @@ const LateralScroll = () => {
             <h2 className="md:block hidden">PIPING</h2>
           </div>
           <h3 className="text-3xl">PIPING</h3>
-          <p>agregar desc</p>
+          <p>
+            Sistemas de tuberías diseñados para transportar lodos, petróleo, gas
+            natural y otros líquidos o gases industriales. Diseño, fabricación,
+            instalación, reparación de tuberías
+          </p>
         </div>
       </section>
     </div>

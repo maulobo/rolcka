@@ -2,6 +2,7 @@ import { Fabricacion } from "@/app/data/data";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import "./srv.css";
 
 export default function FabricacionMod() {
   return (

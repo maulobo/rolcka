@@ -127,3 +127,59 @@ export const images = [
   { src: "/images/bomba.jpg", aspect_ratio: 3, alt: "alt" },
   { src: "/images/bomba.jpg", aspect_ratio: 1 },
 ];
+
+export const imgAcum = [
+  {
+    id: "img1",
+    src: "/images/acum1.jpg",
+  },
+  {
+    id: "img2",
+    src: "/images/acum2.jpg",
+  },
+
+  {
+    id: "img3",
+    src: "/images/acum3.jpeg",
+  },
+];
+export const Imgagitacion = [
+  {
+    id: "agi32",
+    src: "/images/agi2.jpg",
+  },
+
+  {
+    id: "img1",
+    src: "/images/agi3.jpg",
+  },
+];
+export const imgGa = [
+  {
+    id: "ga1",
+    src: "/images/ga1.jpg",
+  },
+  {
+    id: "ga2",
+    src: "/images/ga2.jpg",
+  },
+
+  {
+    id: "ga3",
+    src: "/images/ga3.jpg",
+  },
+  {
+    id: "ga4",
+    src: "/images/ga4.jpg",
+  },
+];
+export const imgTa = [
+  {
+    id: "ta1",
+    src: "/images/tan1.jpg",
+  },
+  {
+    id: "ta2",
+    src: "/images/tan2.jpg",
+  },
+];
