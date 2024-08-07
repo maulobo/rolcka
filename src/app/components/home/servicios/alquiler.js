@@ -15,7 +15,13 @@ export default function Alquiler() {
                 key={`${index}_alquiler`}
                 className="flex flex-col items-center gap-2"
               >
-                <Image src={src} height={200} alt={src} width={200} />
+                <Image
+                  src={src}
+                  height={200}
+                  alt={src}
+                  width={200}
+                  className="h-auto w-auto"
+                />
 
                 <h3 className="text-center">{text}</h3>
                 <h4>{text2}</h4>

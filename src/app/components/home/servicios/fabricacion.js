@@ -16,7 +16,13 @@ export default function FabricacionMod() {
                 key={`${index}_alquiler`}
                 className="flex flex-col items-center gap-2 max-w-56 justify-around "
               >
-                <Image src={src} height={200} width={200} alt={src} />
+                <Image
+                  src={src}
+                  height={200}
+                  width={200}
+                  alt={src}
+                  className="h-auto w-auto"
+                />
 
                 <h3 className="text-center">{text}</h3>
               </div>
