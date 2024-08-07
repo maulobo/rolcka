@@ -6,9 +6,9 @@ import React from "react";
 export default function Alquiler() {
   return (
     <section className=" px-[var(--padding-x)] py-[var(--padding-y)] min-h-96">
-      <div className="w-full bg-[var(--bg-grey)] h-full  flex flex-col gap-8 justify-center items-center px-[var(--padding-x)] py-[var(--padding-y)]">
+      <div className="w-full bg-[var(--bg-grey)] h-full  flex flex-col gap-8 justify-center items-center px-[var(--padding-x)] py-[var(--padding-y)] rounded-2xl">
         <h2 className="">ALQUILER</h2>
-        <div className="grid md:grid-cols-3  gap-16 grid-row-3 ">
+        <div className="grid md:grid-cols-3  gap-8 grid-row-3 ">
           {alquiler.map(({ src, text, text2, text3 }, index) => {
             return (
               <div
@@ -20,7 +20,7 @@ export default function Alquiler() {
                   height={200}
                   alt={src}
                   width={200}
-                  className="h-auto w-auto"
+                  className="md:h-[150px] md:w-[250px] h-20 w-40"
                 />
 
                 <h3 className="text-center">{text}</h3>

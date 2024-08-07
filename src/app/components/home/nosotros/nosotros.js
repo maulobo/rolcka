@@ -37,7 +37,7 @@ const Nosotros = () => {
       {/* ---------------nosotros --------------- */}
       <div
         ref={contRef2}
-        className="px-[var(--padding-x)] py-[var(--padding-y)] flex gap-8 flex-wrap items-center  h-full bg-[var(--bg-color-dark)] min-h-96 text-[var(--text-color-light)]"
+        className="px-[var(--padding-x)] py-[var(--padding-y)] flex flex-wrap items-center  h-full bg-[var(--bg-color-dark)] min-h-96 text-[var(--text-color-light)]"
       >
         <section className="flex-1 min-w-56 text-center ">
           <h2 ref={nosRef}>NOSOTROS</h2>

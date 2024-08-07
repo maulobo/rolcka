@@ -5,7 +5,7 @@ import "./nosotros.css";
 import { ScrollTrigger } from "gsap/all";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import { BiCheckboxSquare } from "react-icons/bi";
+import { BiExpandAlt } from "react-icons/bi";
 
 const Mision = () => {
   const misionRef = useRef(null);
@@ -50,7 +50,7 @@ const Mision = () => {
     >
       <div
         ref={misionRef}
-        className="min-h-36 flex gap-8 flex-wrap items-center bg-[var(--bg-grey)] py-[var(--padding-y)]  h-full opacity-100 "
+        className="min-h-36 flex gap-8 flex-wrap items-center bg-[var(--bg-grey)] py-[var(--padding-y)]  h-full opacity-100 rounded-2xl "
       >
         <section className="flex-1 min-w-56 text-center ">
           <h2>MISIÓN</h2>
@@ -69,15 +69,15 @@ const Mision = () => {
 
       <div
         ref={visionRef}
-        className="min-h-36 flex gap-8 flex-wrap items-center  h-full  bg-[var(--bg-grey)] py-[var(--padding-y)]"
+        className="min-h-36 flex gap-8 flex-wrap items-center h-full bg-[var(--bg-grey)] py-[var(--padding-y)] rounded-2xl"
       >
-        <section className="flex-1  min-w-56 text-center px-8">
+        <section className="order-2 md:order-1 flex-1 min-w-56 text-center px-8">
           <p>
             Ser líderes en el sector Oil & Gas brindando una solución integral a
             nivel nacional e internacional.
           </p>
         </section>
-        <section className="flex-1  min-w-56 text-center">
+        <section className="order-1 md:order-2 flex-1 min-w-56 text-center">
           <h2>VISIÓN</h2>
         </section>
       </div>
@@ -86,7 +86,7 @@ const Mision = () => {
 
       <div
         ref={valoresRef}
-        className=" flex flex-col  flex-wrap items-center h-full justify-center  bg-[var(--bg-grey)] md:py-[var(--padding-y)] "
+        className=" flex flex-col  flex-wrap items-center h-full justify-center  bg-[var(--bg-grey)] md:py-[var(--padding-y)] rounded-2xl "
       >
         <section className="text-center py-8">
           <h2>NUESTROS VALORES</h2>
@@ -97,7 +97,7 @@ const Mision = () => {
               key={i}
               className="flex gap-4 w-80 h-20 text-3xl items-center  align-middle"
             >
-              <BiCheckboxSquare />
+              <BiExpandAlt />
               <h3 className=" ">{val}</h3>
             </div>
           ))}

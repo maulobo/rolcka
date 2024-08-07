@@ -7,9 +7,9 @@ import "./srv.css";
 export default function FabricacionMod() {
   return (
     <section className=" px-[var(--padding-x)] py-[var(--padding-y)] min-h-96 bg-image-fab text-white">
-      <div className="w-full bg-[var(--bg-grey)] h-full  flex flex-col gap-8 justify-center items-center px-[var(--padding-x)] py-[var(--padding-y)] ">
+      <div className="w-full bg-[var(--bg-grey)] h-full  flex flex-col gap-8 justify-center items-center px-[var(--padding-x)] py-[var(--padding-y)] rounded-2xl">
         <h2>FABRICACIÓN</h2>
-        <div className="flex flex-wrap md:gap-16 align-middle justify-center">
+        <div className="flex flex-wrap md:gap-16 gap-8 align-middle justify-center">
           {Fabricacion.map(({ src, text }, index) => {
             return (
               <div
@@ -21,7 +21,7 @@ export default function FabricacionMod() {
                   height={200}
                   width={200}
                   alt={src}
-                  className="h-auto w-auto"
+                  className="md:h-[150px] md:w-[250px] h-20 w-40"
                 />
 
                 <h3 className="text-center">{text}</h3>
