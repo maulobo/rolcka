@@ -17,11 +17,11 @@ export default function SCards2() {
           <div className=" md:max-w-[600px] md:min-w-32 p-8 flex flex-col gap-4 ">
             <h3>CISTERNAS DE GASOIL</h3>
             <p>
-              tanque de alamacenamiento de combustible con kit de sustraccion
+              Tanque de alamacenamiento de combustible con kit de sustracción
               equipado con bomba, caudalimentro y filtro.
             </p>
             <p>
-              Batea de contencion y tablero antiexplosivo. Bomba surtidora 1/2hp
+              Batea de contención y tablero antiexplosivo. Bomba surtidora 1/2hp
             </p>
             <p>Capacidades: 5m3 , 10m3 y 20m3</p>
           </div>
