@@ -80,7 +80,7 @@ const LateralScroll = () => {
               agitación es crucial para facilitar el procesamiento de lodos.
             </p>
           </div>
-          <p className="hidden md:absolute bottom-4 right-0">
+          <p className="hidden md:absolute md:flex bottom-4 right-0">
             MEDIDAS ESTÁNDARES Y PERSONALIZADAS.
           </p>
         </section>
@@ -111,7 +111,7 @@ const LateralScroll = () => {
               y probar nuevas tecnologías.
             </p>
           </div>
-          <p className="hidden md:absolute bottom-4 right-0">
+          <p className="hidden md:absolute md:flex bottom-4 right-0">
             MEDIDAS ESTÁNDARES Y PERSONALIZADAS.
           </p>
         </section>
@@ -141,7 +141,7 @@ const LateralScroll = () => {
               instalaciones temporales en sitios remotos.
             </p>
           </div>
-          <p className="hidden md:absolute bottom-4 right-0">
+          <p className="hidden md:absolute md:flex bottom-4 right-0">
             MEDIDAS ESTÁNDARES Y PERSONALIZADAS.
           </p>
         </section>
@@ -167,7 +167,7 @@ const LateralScroll = () => {
               gas natural y otros líquidos o gases industriales. Diseño,
               fabricación, instalación, reparación de tuberías
             </p>
-            <p className="hidden md:absolute bottom-4 right-0">
+            <p className="hidden md:absolute md:flex bottom-4 right-0">
               MEDIDAS ESTÁNDARES Y PERSONALIZADAS.
             </p>
           </div>
