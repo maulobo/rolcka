@@ -15,7 +15,7 @@ export default function SCards2() {
             <CarouselDemo images={imgGa} />
           </div>
           <div className=" md:max-w-[600px] md:min-w-32 p-8 flex flex-col gap-4 ">
-            <h3>Cisternas de Gasoil</h3>
+            <h3>CISTERNAS DE GASOIL</h3>
             <p>
               tanque de alamacenamiento de combustible con kit de sustraccion
               equipado con bomba, caudalimentro y filtro.
@@ -31,15 +31,11 @@ export default function SCards2() {
         <section className="h-full flex min-w-80  flex-wrap justify-center  md:items-center   ">
           <div className=" md:max-w-[600px] min-w-32 text-right p-8 flex flex-col gap-2">
             <h3>TANQUE DE AGUA</h3>
-            <h4>3x9</h4>
-            <p>
-              Tanque de almacenamiento de agua no potable: 27m³ o 27.000 litros
-            </p>
-            <h4>3x12</h4>
-            <p>
-              Tanque de almacenamiento de agua no potable: 36m³ o 36.000 litros.
-            </p>{" "}
-            <p>Ambas cuentan con manifold.</p>
+            <p>Tanque de almacenamiento de agua no potable</p>
+            <h3>Dimensiones: 3x9mts</h3>
+            <p>27m³ o 27.000 litros</p>
+            <h3>Dimensiones: 3x12mts</h3>
+            <p>36m³ o 36.000 litros.</p> <p>Ambas cuentan con manifold.</p>
           </div>
           <div className="h-full min-w-40 md:items-center  ">
             <div className="flex items-center	align-middle justify-center p-14  ">

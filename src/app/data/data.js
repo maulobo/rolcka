@@ -140,7 +140,7 @@ export const imgAcum = [
 
   {
     id: "img3",
-    src: "/images/acum3.jpeg",
+    src: "/images/acum3.jpg",
   },
 ];
 export const Imgagitacion = [
@@ -178,8 +178,8 @@ export const imgTa = [
     id: "ta1",
     src: "/images/tan1.jpg",
   },
-  {
-    id: "ta2",
-    src: "/images/tan2.jpg",
-  },
+  // {
+  //   id: "ta2",
+  //   src: "/images/tan2.jpg",
+  // },
 ];

@@ -73,8 +73,8 @@ const LateralScroll = () => {
             agitación es crucial para facilitar el procesamiento de lodos.
           </p>
         </div>
-        <p className="absolute bottom-0 right-0">
-          MEDIDAS GENERALES Y PERSONALIZADAS.
+        <p className="absolute bottom-4 right-0">
+          MEDIDAS ESTÁNDARES Y PERSONALIZADAS.
         </p>
       </section>
       {/* page 3 */}
@@ -104,8 +104,8 @@ const LateralScroll = () => {
             probar nuevas tecnologías.
           </p>
         </div>
-        <p className="absolute bottom-0 right-0">
-          MEDIDAS GENERALES Y PERSONALIZADAS.
+        <p className="absolute bottom-4 right-0">
+          MEDIDAS ESTÁNDARES Y PERSONALIZADAS.
         </p>
       </section>
       {/* page 4 */}
@@ -134,6 +134,9 @@ const LateralScroll = () => {
             temporales en sitios remotos.
           </p>
         </div>
+        <p className="absolute bottom-4 right-0">
+          MEDIDAS ESTÁNDARES Y PERSONALIZADAS.
+        </p>
       </section>
       {/* page 5 */}
       <section className=" panel flex flex-col  px-[var(--padding-x)] py-[var(--padding-y)] justify-evenly  ">
@@ -155,6 +158,9 @@ const LateralScroll = () => {
             Sistemas de tuberías diseñados para transportar lodos, petróleo, gas
             natural y otros líquidos o gases industriales. Diseño, fabricación,
             instalación, reparación de tuberías
+          </p>
+          <p className="absolute bottom-4 right-0">
+            MEDIDAS ESTÁNDARES Y PERSONALIZADAS.
           </p>
         </div>
       </section>
