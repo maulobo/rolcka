@@ -40,6 +40,10 @@ h3 {
   letter-spacing: 1px;
 }
 
+body {
+  background: grey;
+}
+
 @media (max-width: 768px) {
   :root {
     --padding-x: 1.5rem;

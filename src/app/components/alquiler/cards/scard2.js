@@ -28,8 +28,8 @@ export default function SCards2() {
         </section>
       </div>
       <div className="bg-slate-600 w-full md:w-auto md:shadow rounded-3xl ">
-        <section className="h-full flex min-w-80  flex-wrap justify-center  md:items-center   ">
-          <div className=" md:max-w-[600px] min-w-32 text-right p-8 flex flex-col gap-2">
+        <section className="h-full flex min-w-80  flex-wrap justify-center  md:items-center md:w-[1100px]  ">
+          <div className=" md:max-w-[700px] min-w-32 text-right p-8 flex flex-col gap-2">
             <h3>TANQUE DE AGUA</h3>
             <p>Tanque de almacenamiento de agua no potable</p>
             <h3>Dimensiones: 3x9mts</h3>
