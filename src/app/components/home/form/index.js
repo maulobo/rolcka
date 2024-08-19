@@ -20,7 +20,7 @@ const Formulario = () => {
           </div>
           <div className="flex gap-4 items-center">
             <IoIosMail className="text-lg md:text-3xl" />
-            <p>administracion@rolcka.com.ar</p>
+            <p>administracion@rolcka.com</p>
           </div>
         </div>
       </div>

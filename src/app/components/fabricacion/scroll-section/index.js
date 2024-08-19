@@ -9,6 +9,7 @@ import pileta from "/public/simbols/Pileta_red.png";
 import cisterna from "/public/simbols/cisterna_red.png";
 import trailers from "/public/simbols/Modulos_red.png";
 import skid from "/public/simbols/Skid_red.png";
+import estructuras from "/public/simbols/Estructura_red.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -148,6 +149,16 @@ const LateralScroll = () => {
         {/* page 5 */}
         <section className=" panel flex flex-col  px-[var(--padding-x)] py-[var(--padding-y)] justify-evenly  ">
           <div className="flex flex-col gap-4">
+            <div className="flex-1 flex  align-middle items-center ">
+              <Image
+                src={estructuras}
+                width={200}
+                height={200}
+                alt="pileta"
+                className=""
+              />
+              <h2 className="md:block hidden">ESTRUCTURAS</h2>
+            </div>
             <h3 className="text-3xl">ESTRUCTURAS Y PLATAFORMAS</h3>
             <p>
               Elementos diseñados para proporcionar soporte y acceso a equipos

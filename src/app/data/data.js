@@ -19,7 +19,7 @@ export const alquiler = [
   {
     src: "/simbols/Bomba_white.png",
     text: "BOMBAS",
-    text2: "CENTRIFUGAS",
+    text2: "CENTRÍFUGAS",
   },
   {
     src: "/simbols/cisterna_white.png",
@@ -167,10 +167,6 @@ export const imgGa = [
   {
     id: "ga3",
     src: "/images/ga3.jpg",
-  },
-  {
-    id: "ga4",
-    src: "/images/ga4.jpg",
   },
 ];
 export const imgTa = [

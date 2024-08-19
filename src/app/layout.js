@@ -6,7 +6,8 @@ const inter = Schibsted_Grotesk({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Rolcka",
-  description: "Primeras impresiones",
+  description:
+    "Somos un Equipo de Profesionales Especialistas comprometidos con el desarrollo industrial, social y ambiental del sector Oil & Gas",
 };
 
 export default function RootLayout({ children }) {

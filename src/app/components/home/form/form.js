@@ -49,7 +49,7 @@ const Form = () => {
             id="message"
             name="message"
             className="border-2 border-gray-300 p-2 rounded-lg w-full h-32 resize-none focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-800"
-            placeholder="Escribinos por cualquier consulta"
+            placeholder="Envianos tu consulta"
             required
           ></textarea>
         </div>

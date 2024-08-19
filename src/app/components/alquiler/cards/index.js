@@ -18,7 +18,7 @@ export default function SCards() {
             <p>
               Tanques fabricados con chapa de ¼ de espesor sobre patines de IPN.
               Cuenta con Escalera a 45°, barandas perimetrales y rodapié
-              Capacidades: 60m3, 70m3 y 80m3 Con certificado de estanquidad
+              Capacidades: 60m3, 70m3 y 80m3 Con certificado de estanqueidad
             </p>
             <p>Largo 10,50 mts.</p>
           </div>
@@ -33,7 +33,7 @@ export default function SCards() {
               patines de IPN. Cuenta con Escalera a 45°, barandas perimetrales y
               rodapié Sistema de remoción de lodos, compuesto por 3 conjuntos de
               moto-reductores Sistema eléctrico antiexplosivos Con certificado
-              de estanquidad
+              de estanqueidad
             </p>
           </div>
           <div className="h-full min-w-60 flex  md:justify-center md:items-center">
