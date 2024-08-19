@@ -6,6 +6,7 @@
 }
 @media (max-width: 768px) {
   .imagen-bg {
-    background-size: cover;
+    background-size: 200%;
+    background-position: 20;
   }
 }

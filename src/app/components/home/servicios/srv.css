@@ -1,7 +1,8 @@
 .image-bg-srv {
   background-image: url("../../../assets/alq_bg.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position-y: 0%;
 }
 .bg-image-fab {
   background-image: url("../../../assets/soldador.webp");
