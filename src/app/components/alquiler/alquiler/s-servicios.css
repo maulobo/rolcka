@@ -1,8 +1,8 @@
 .back-ss {
   background-image: url("../../../assets/alq_bg.jpg");
-  background-size: cover;
+  background-size: 110%;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-position-y: 50%;
 }
 .back-ss::before {
   content: "";
@@ -18,4 +18,12 @@
 .back-ss > * {
   position: relative;
   z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .back-ss {
+    background-repeat: no-repeat;
+    background-size: 260%;
+    background-position-y: 13%;
+  }
 }
