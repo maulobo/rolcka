@@ -8,7 +8,6 @@ export default function FabricacionMod() {
   return (
     <section className=" px-[var(--padding-x)] py-[var(--padding-y)] min-h-96 bg-image-fab text-white">
       <div className="w-full bg-[var(--bg-grey)] h-full  flex flex-col gap-8 justify-center items-center px-[var(--padding-x)] py-[var(--padding-y)] rounded-2xl">
-        <h2>FABRICACIÓN</h2>
         <div className="flex flex-wrap md:gap-16 gap-8 align-middle justify-center">
           {Fabricacion.map(({ src, text }, index) => {
             return (
