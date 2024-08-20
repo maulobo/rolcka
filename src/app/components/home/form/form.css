@@ -7,3 +7,6 @@
   background-position: left;
   background-repeat: no-repeat;
 }
+.mensaje {
+  padding-top: 1rem !important;
+}
