@@ -1,12 +1,12 @@
 .imagen-bg {
-  background-image: url("../../../assets/home.jpeg");
+  background-image: url("../../../assets/bg-index.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 @media (max-width: 768px) {
   .imagen-bg {
-    background-size: 200%;
+    background-size: cover;
     background-position: 20;
   }
 }
