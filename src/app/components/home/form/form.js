@@ -17,7 +17,7 @@ const Form = () => {
 
   const serviceId = process.env.NEXT_PUBLIC_SERVICE_ID;
   const templateID = process.env.NEXT_PUBLIC_TEMPLATE_ID;
-  const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY;
+  const publicKey = process.env.PUBLIC_PUBLIC_KEY;
 
   const onSubmitSend = handleSubmit((data) => {
     emailjs
